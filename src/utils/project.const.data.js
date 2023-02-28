@@ -1,28 +1,54 @@
 /* jshint esversion: 6 */
 import goalkeeper from "../../src/assets/images/Goalkeepers.PNG";
+import funnymoovie from "../../src/assets/images/funnymoovie.png";
+import noSQLAPI from "../../src/assets/images/NoSQLAPI.PNG";
+import pwatxted from "../../src/assets/images/PWATextEdditor.PNG";
+import ecomorm from "../../src/assets/images/EcommerceBackendORM.PNG";
+import weatherForecast from "../../src/assets/images/weatheForecast.PNG";
 
 
 export const projectArray = [
     { 
-        title: 'project1',
-        description: "desc",
-        tech: ["React, MongoDb"],
+        title: 'Goalie',
+        description: "Application to share and view goals with piers using chart.js to be able to vizualize the data. Live deployed on Heroku!",
+        tech: ["Node", "Sequelize", "Express", "MySQL Workbench", "Bootstrap", "Chart.js", "MVC framework", "Heroku" ],
         link: "'https://gp2-your-goals-tracker.herokuapp.com/'",
         image: goalkeeper,
     },
     { 
-        title: 'project1',
-        description: "desc",
-        tech: ["React, MongoDb"],
-        link: "'https://gp2-your-goals-tracker.herokuapp.com/'",
-        image: goalkeeper,
+        title: 'Funny Movie Gifs',
+        description: "This is a group collaborative project to entertain users with funny gifs during users' search for info about movies.",
+        tech: ["HTML", "CSS", "Third party API", "JavaScript"],
+        link: "'https://maksimrazuvaev.github.io/funny_movie_gif/'",
+        image: funnymoovie,
     },
     { 
-        title: 'project1',
-        description: "desc",
-        tech: ["React, MongoDb"],
-        link: "'https://gp2-your-goals-tracker.herokuapp.com/'",
-        image: goalkeeper,
+        title: 'NoSQL Social Network API Back-end App',
+        description: "A social media plathform using an API for my social network that uses a NoSQL database so, my website can handle large amounts of unstructured dat",
+        tech: ["Express", "MongoDB", "Mongoose ODM", "JavaScript date library", "Insomnia"],
+        link: "'https://github.com/MaksimRazuvaev/NoSQL_Social_Network_API'",
+        image: noSQLAPI,
+    },
+    { 
+        title: 'PWA Text Edditor',
+        description: " A text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. The application functions offline",
+        tech: ["Progressive web apps (PWAs)", "Webpack", "AG Grid", "Babel JavaScript compiler", "DevServer"],
+        link: "'https://pwa-text-edditor.herokuapp.com/'",
+        image: pwatxted,
+    },
+    { 
+        title: 'Sequelize E-commerce Back-end ORM',
+        description: "Back end for an e-commerce site. Express.js API and configured to use Sequelize to interact with a MySQL database",
+        tech: ["Express", "Sequelize", "MySQL"],
+        link: "'https://github.com/MaksimRazuvaev/Sequelize_E-commerce_Back-end_ORM'",
+        image: ecomorm,
+    },
+    { 
+        title: 'Weather Forecast',
+        description: "Current weather and 5-day forecast app",
+        tech: ["HTML", "Javascript", "Javascript local storage ", "Key API"],
+        link: "'https://maksimrazuvaev.github.io/server_side_api_weather_app/'",
+        image: weatherForecast,
     },
 ];
 
