@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 import React from 'react';
 import avatarimage from "../../../src/assets/images/avatar.png";
 
