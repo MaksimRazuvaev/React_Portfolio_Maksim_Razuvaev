@@ -1,11 +1,13 @@
 import React from 'react';
+import avatarimage from "../../../src/assets/images/avatar.png";
+
 
 export default function AboutMe() {
   return (
     <div>
       <h1>Maksim Razuvaev</h1>
       <h2>Full-Stack Web Developer</h2>
-      <img src="./public/images/avatar.png" alt="Avatar" class="avatar"></img>
+      <img src={avatarimage} alt="Avatar" class="avatar"></img>
       <p>
       I am a full-stack web developer. I am working on earning a certificate of Full Stack Codding Bootcamp - 
       at the University of Washington, where I am developing skills in HTML5, CSS3, JavaScript, jQuery, Express.js, 
