@@ -32,7 +32,7 @@ label {
   border-style: dashed;
 }
 
-.errorMessage, .text-input, .submitButton, p, label{
+.errorMessage, .text-input, .submitButton, label{
   /* margin: 20px; */
   margin: 3% 10%;
 

@@ -7,9 +7,9 @@ import "./resume.css";
 function Resume () {
 
   return (
-    <div className="resume-wrapper">
-        <div>
-            <h3>Resume</h3>
+    <div className="resumeWrapper">
+        <div className='wraperHeader'>
+            <h1>Resume</h1>
             <a href={resumeLink} target="_blank" rel="noopener noreferrer">Download my resume</a>
         </div>
         {
