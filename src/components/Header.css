@@ -1,17 +1,24 @@
 .headerMain {
-    outline: solid slateblue 2px;
     display: flex;
-    background-color: aqua;
-}
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
 
 .ulNav {
     display: flex;
-    outline: solid red 2px;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-}
+    justify-content: space-between;
+    min-width: 300px;
+  }
 
-.nav-item {
-    padding: 10px;
-}
+.headerMain a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .headerMain a:hover {
+    color: #fff;
+  }

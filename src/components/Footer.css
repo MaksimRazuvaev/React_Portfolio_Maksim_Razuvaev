@@ -1,0 +1,16 @@
+.footerLinks{
+    display: flex;
+    min-width: 300px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }

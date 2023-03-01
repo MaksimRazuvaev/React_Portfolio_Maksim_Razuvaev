@@ -8,22 +8,15 @@ import "./Footer.css";
 
 function Footer(){
     return(
-        <div >
+        <div className="footer">
             <div >
-                <div >
-                    <p>Made with <span role="img" aria-label="heart icon">❤️</span> using React</p>
-                    <p>© Maksim Razuvaev</p>
-                </div>
-                <div >
-                    <p>Connect</p>
-                    <div>
-                        <a href={gitHubLink}>
-                            <img title="github" alt="github" src={githubimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
-                        <a href={linkedInLink}>
-                            <img title="linkedin" alt="linkedin" src={linkedinimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
-                        <a href={devLink}>
-                            <img title="DEv" alt="DEV" src={devimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
-                    </div>
+                <div className='footerLinks'>
+                    <a href={gitHubLink}>
+                        <img title="github" alt="github" src={githubimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
+                    <a href={linkedInLink}>
+                        <img title="linkedin" alt="linkedin" src={linkedinimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
+                    <a href={devLink}>
+                        <img title="DEv" alt="DEV" src={devimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
                 </div>
             </div>
         </div>
