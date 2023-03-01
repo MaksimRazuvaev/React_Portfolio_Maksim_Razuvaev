@@ -1,6 +1,7 @@
 /* jshint esversion: 6 */
 import React from 'react';
 import { resumeArray, resumeLink } from '../../utils/project.const.data.js';
+import "./resume.css";
 
 
 function Resume () {

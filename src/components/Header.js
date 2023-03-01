@@ -1,12 +1,13 @@
 /* jshint esversion: 6 */
 import React from 'react';
+import "./Header.css";
 
 
 function Header ({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className='headerMain'>
       <h3>Maksim Razuvaev</h3>
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs ulNav">
         <li className="nav-item">
           <a
             href="#AboutMe"

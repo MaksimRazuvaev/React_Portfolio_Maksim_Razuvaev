@@ -6,11 +6,11 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Footer from './Footer';
 import Header from './Header';
+import './PortfolioContainer.css';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
-  // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
@@ -27,12 +27,10 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+    <div className='layout'>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
-      <Footer/>
+      <Footer />
     </div>
   );
 }

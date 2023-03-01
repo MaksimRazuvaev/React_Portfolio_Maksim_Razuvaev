@@ -4,6 +4,7 @@ import githubimage from "../../src/assets/images/GitHub.png";
 import linkedinimage from "../../src/assets/images/LinkedIn.svg";
 import devimage from "../../src/assets/images/techDev.png";
 import { gitHubLink, linkedInLink, devLink } from '../utils/project.const.data.js';
+import "./Footer.css";
 
 function Footer(){
     return(

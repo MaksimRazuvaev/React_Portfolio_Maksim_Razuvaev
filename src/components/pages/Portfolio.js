@@ -1,6 +1,7 @@
 /* jshint esversion: 6 */
 import React from 'react';
 import { projectArray } from '../../utils/project.const.data.js';
+import "./portfolio.css";
 
 
 

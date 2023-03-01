@@ -1,6 +1,7 @@
 /* jshint esversion: 6 */
 import React from 'react';
 import avatarimage from "../../../src/assets/images/avatar.png";
+import "./aboutme.css";
 
 
 export default function AboutMe() {
