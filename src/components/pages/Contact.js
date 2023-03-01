@@ -66,7 +66,7 @@ function Contact() {
 
       <form className="form">
         <label for="userName">Name:</label>
-        <input
+        <input className="text-input"
           value={userName}
           name="userName"
           onChange={handleInputChange}
@@ -74,28 +74,30 @@ function Contact() {
           placeholder="username"
         />
         <label for="email">Email address:</label>
-        <input
+        <input className="text-input"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="me@example.com"
         />
         <label for="message">Message:</label>
-        <input
+        <input className="text-input message"
           value={message}
           name="message"
           onChange={handleInputChange}
           type="message"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
-        <div>
+        
+        {errorMessage && (
+        <div className='errorMessage'>
           <p className="error-text">{errorMessage}</p>
         </div>
-      )}
+        )}
+
+        <button className="submitButton" type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
     </div>
   );
 }
