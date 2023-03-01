@@ -1,53 +1,55 @@
 form {
-    max-width: 400px;
-    margin: 3% 0;
-  }
+  max-width: 400px;
+  /* margin: 3% 3%; */
+}
 
-  label {
-    display: block;
-    margin-left: 20px;
-  }
+label {
+  display: block;
+  /* margin-left: 20px; */
+}
 
-  .text-input {
-    width: 100%;
-    max-width: 100%;
-    margin: 20px;
-  }
+.text-input {
+  width: 100%;
+  max-width: 100%;
+  /* margin: 20px; */
+}
 
-  .message {
-    height: 200px;
-  }
+.message {
+  height: 200px;
+}
 
-  .text-input:hover, button:hover {
-    box-shadow: 0 0 5px #999;
-  }
-  
-  /* The right-side border changes when the element is clicked on or tabbed into */
-  .text-input:focus {
-    border-right-width: 5px;
-  }
-  
-  /* The border becomes dashed when the element's placeholder text is visible */
-  .text-input:placeholder-shown {
-    border-style: dashed;
-  }
+.text-input:hover, button:hover {
+  box-shadow: 0 0 5px #999;
+}
 
-  .errorMessage{
-    margin: 20px;
-  }
+/* The right-side border changes when the element is clicked on or tabbed into */
+.text-input:focus {
+  border-right-width: 5px;
+}
 
-  .submitButton{
-    padding: 1% 2%;
-    color: #fff;
-    background-color: #13293d;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin: 20px;
-        margin: 0;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-  }
+/* The border becomes dashed when the element's placeholder text is visible */
+.text-input:placeholder-shown {
+  border-style: dashed;
+}
+
+.errorMessage, .text-input, .submitButton, p, label{
+  /* margin: 20px; */
+  margin: 3% 10%;
+
+}
+
+.submitButton{
+  padding: 1% 2%;
+  color: #fff;
+  background-color: #13293d;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* margin: 20px; */
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+

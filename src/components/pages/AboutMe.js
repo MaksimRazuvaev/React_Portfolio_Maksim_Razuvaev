@@ -6,9 +6,8 @@ import "./aboutme.css";
 
 export default function AboutMe() {
   return (
-    <div>
-      <h1>Maksim Razuvaev</h1>
-      <h2>Full-Stack Web Developer</h2>
+    <div className='aboutMeMain'>
+      <h1>About me</h1>
       <img src={avatarimage} alt="Avatar" class="avatar"></img>
       <p>
       I am a full-stack web developer. I am working on earning a certificate of Full Stack Codding Bootcamp - 
