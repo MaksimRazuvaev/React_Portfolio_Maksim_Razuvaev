@@ -2,6 +2,7 @@
 import React from 'react';
 import { projectArray } from '../../utils/project.const.data.js';
 import "./portfolio.css";
+import githubimage from "../../../src/assets/images/GitHub.png";
 
 
 
@@ -12,10 +13,13 @@ function Portfolio () {
         {
             projectArray.map(project => {
                 return(
-                <div className="project">
+                <div className="projectCard">
                     <div className="title">{project.title}</div>
                     <div className="desc">{project.description}</div>
-                    <a href={project.link}><img src={project.image} alt="My Website"/></a>
+                    <a href={project.appLink}><img src={project.image} alt="My Website" width="100%"/></a>
+                    <a href={project.gitHubLink}>
+                        <img title="github" alt="github" src={githubimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
+
 
                     <ul className="tech">
                         {

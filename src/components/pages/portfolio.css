@@ -1,24 +1,27 @@
-* {
-    box-sizing: border-box;
-  }
-
-.project {
-  flex: 0 0 200px;
+.projectCard {
+  flex: 1 0 0;
+  flex-grow: 1;
   padding: 10px;
   text-align: center;
   border-style: solid;
   border-width: 1px;
-  width: 30%;
-  margin: 20px;
-}
-
-.project img {
-    width: 100%;
+  width: 20%;
+  margin: 2%;
 }
 
 .project-wrapper{
     /* display: flex; */
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
+    /* flex-direction:column; */
     margin-top: 2%;
+}
+
+.title .desc .tech {
+  display: none;
+  padding: 1% 0;
+}
+
+.resources:hover .links {
+  display: block;
 }

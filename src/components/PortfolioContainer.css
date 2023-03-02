@@ -33,7 +33,7 @@
 
 .layout {
     /* outline: solid red 2px; */
-    background-color: red;
+    background-color: #b9c6ae;
     height: 100vh;
     display: flex;
     flex-direction: column;

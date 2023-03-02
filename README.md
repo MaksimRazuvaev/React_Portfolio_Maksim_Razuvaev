@@ -1,6 +1,6 @@
 # React_Portfolio_Maksim_Razuvaev
 
-This is my portfolio built with React
+My Name is Maksim Razuvaev. I'm full stack web developer. This is my portfolio built with React
 
 ## Description
 
@@ -38,6 +38,12 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Link to deployed application
 
+https://maksimrazuvaev.github.io/React_Portfolio_Maksim_Razuvaev/ 
+
+## Technologies
+
+React
+JSX
 
 
 ## Credits
@@ -47,10 +53,3 @@ N/A
 ## License
 
 MIT License according to the LICENSE file in the repo.
-
-## Resources
-- 
-- 
-- 
-- 
-- 
