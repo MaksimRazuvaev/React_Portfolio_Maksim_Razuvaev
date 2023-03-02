@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio_Maksim_Razuvaev/static/css/main.8010643b.css",
+    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.c969ea10.js",
+    "static/media/funnymoovie.png": "/React_Portfolio_Maksim_Razuvaev/static/media/funnymoovie.eb7c5519274d1756d973.png",
+    "static/media/NoSQLAPI.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/NoSQLAPI.219bba2643e4e318eab8.PNG",
+    "static/media/Goalkeepers.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/Goalkeepers.f394d51bee710ded661c.PNG",
+    "static/media/PWATextEdditor.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/PWATextEdditor.f3217b7c2a3447e7fd8f.PNG",
+    "static/media/EcommerceBackendORM.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/EcommerceBackendORM.7192d742ad622990a358.PNG",
+    "static/media/avatar.png": "/React_Portfolio_Maksim_Razuvaev/static/media/avatar.85c40b52c572c6cfd7de.png",
+    "static/media/weatheForecast.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/weatheForecast.b60ed989ef5679877297.PNG",
+    "static/media/LinkedIn.svg": "/React_Portfolio_Maksim_Razuvaev/static/media/LinkedIn.115d3af0320cfa2e8e34ba26d011a603.svg",
+    "index.html": "/React_Portfolio_Maksim_Razuvaev/index.html",
+    "main.8010643b.css.map": "/React_Portfolio_Maksim_Razuvaev/static/css/main.8010643b.css.map",
+    "main.c969ea10.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.c969ea10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8010643b.css",
+    "static/js/main.c969ea10.js"
+  ]
+}
