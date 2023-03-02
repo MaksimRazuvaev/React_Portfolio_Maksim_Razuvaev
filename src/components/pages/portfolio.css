@@ -1,21 +1,29 @@
+.project-wrapper{
+  /* display: flex;*/
+  /* Forces elements to the next line if they don't fit */
+  /*flex-wrap: wrap;
+  flex-direction:column;
+  margin-top: 2%; */
+
+}
+
 .projectCard {
-  flex: 1 0 0;
+  /* flex: 1 0 0;
   flex-grow: 1;
   padding: 10px;
   text-align: center;
   border-style: solid;
   border-width: 1px;
   width: 20%;
-  margin: 2%;
+  margin: 2%; */
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 20%;
 }
 
-.project-wrapper{
-    /* display: flex; */
-    /* Forces elements to the next line if they don't fit */
-    flex-wrap: wrap;
-    /* flex-direction:column; */
-    margin-top: 2%;
-}
+
 
 .title .desc .tech {
   display: none;
