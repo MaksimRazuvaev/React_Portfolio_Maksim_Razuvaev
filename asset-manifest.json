@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/React_Portfolio_Maksim_Razuvaev/static/css/main.8010643b.css",
-    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.c969ea10.js",
-    "static/media/funnymoovie.png": "/React_Portfolio_Maksim_Razuvaev/static/media/funnymoovie.eb7c5519274d1756d973.png",
-    "static/media/NoSQLAPI.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/NoSQLAPI.219bba2643e4e318eab8.PNG",
-    "static/media/Goalkeepers.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/Goalkeepers.f394d51bee710ded661c.PNG",
-    "static/media/PWATextEdditor.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/PWATextEdditor.f3217b7c2a3447e7fd8f.PNG",
-    "static/media/EcommerceBackendORM.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/EcommerceBackendORM.7192d742ad622990a358.PNG",
-    "static/media/avatar.png": "/React_Portfolio_Maksim_Razuvaev/static/media/avatar.85c40b52c572c6cfd7de.png",
-    "static/media/weatheForecast.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/weatheForecast.b60ed989ef5679877297.PNG",
+    "main.css": "/React_Portfolio_Maksim_Razuvaev/static/css/main.d5d5601b.css",
+    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.8ae0d88f.js",
+    "static/media/NoSQLAPI.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/NoSQLAPI.2a41f3f6b1c9ca8f15f7.PNG",
+    "static/media/funnymoovie.png": "/React_Portfolio_Maksim_Razuvaev/static/media/funnymoovie.9b70c11fc429ff6b7787.png",
+    "static/media/PWATextEdditor.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/PWATextEdditor.64cbf59068f25b39923b.PNG",
+    "static/media/EcommerceBackendORM.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/EcommerceBackendORM.8a91bd7266bd380ab2a7.PNG",
+    "static/media/Goalkeepers.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/Goalkeepers.3fd939a99c96cf5d14ec.PNG",
+    "static/media/weatheForecast.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/weatheForecast.b1523b27fc4f0f659ece.PNG",
     "static/media/LinkedIn.svg": "/React_Portfolio_Maksim_Razuvaev/static/media/LinkedIn.115d3af0320cfa2e8e34ba26d011a603.svg",
     "index.html": "/React_Portfolio_Maksim_Razuvaev/index.html",
-    "main.8010643b.css.map": "/React_Portfolio_Maksim_Razuvaev/static/css/main.8010643b.css.map",
-    "main.c969ea10.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.c969ea10.js.map"
+    "main.d5d5601b.css.map": "/React_Portfolio_Maksim_Razuvaev/static/css/main.d5d5601b.css.map",
+    "main.8ae0d88f.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.8ae0d88f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8010643b.css",
-    "static/js/main.c969ea10.js"
+    "static/css/main.d5d5601b.css",
+    "static/js/main.8ae0d88f.js"
   ]
 }
