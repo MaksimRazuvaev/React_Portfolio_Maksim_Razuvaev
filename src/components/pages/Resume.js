@@ -16,8 +16,8 @@ function Resume () {
             resumeArray.map(project => {
                 return(
                 <div className="resume">
-                    <div className="title">{project.title}</div>
-                    <ul className="tech">
+                    <div>{project.title}</div>
+                    <ul>
                         {
                             project.technologies.map(techPoints => {
                                 return(

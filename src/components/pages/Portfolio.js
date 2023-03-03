@@ -9,19 +9,19 @@ import githubimage from "../../../src/assets/images/GitHub.png";
 function Portfolio () {
 
   return (
-    <div className="project-wrapper">
+    <div>
+        <h1>Portfolio</h1>
+        <div className="project-wrapper">
         {
             projectArray.map(project => {
                 return(
                 <div className="projectCard">
-                    <div className="title">{project.title}</div>
-                    <div className="desc">{project.description}</div>
+                    <h3 className="title">{project.title}</h3>
                     <a href={project.appLink}><img src={project.image} alt="My Website" width="100%"/></a>
-                    <a href={project.gitHubLink}>
+                    <a href={project.gitHubLink} className="title">
                         <img title="github" alt="github" src={githubimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
-
-
-                    <ul className="tech">
+                    <div className="title">{project.description}</div>
+                    <ul className="title">Technologies:
                         {
                             project.tech.map(techData => {
                                 return(
@@ -34,8 +34,9 @@ function Portfolio () {
                 )
             })
         }
+        </div>
     </div>
   );
-}
+};
 
 export default Portfolio;
