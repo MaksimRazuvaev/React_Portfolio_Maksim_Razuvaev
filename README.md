@@ -40,10 +40,25 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 https://maksimrazuvaev.github.io/React_Portfolio_Maksim_Razuvaev/ 
 
+## Wed Site View
+
+- About Me:
+![About_Me](/src/assets/images/About.PNG)
+- Portfolio:
+![Portfolio](/src/assets/images/Portfolio.PNG)
+- Contact:
+![Contact](/src/assets/images/Contact.PNG)
+- Resume:
+![Resume](/src/assets/images/Resume.PNG)
+
 ## Technologies
 
-React
-JSX
+- React
+- JSX
+- Javascript
+- HTML
+- CSS
+- GitHub Pages
 
 
 ## Credits
