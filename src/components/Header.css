@@ -25,7 +25,12 @@
 
 
   @media screen and (max-width: 768px) {
-    .ulNav {
-      display: block;
+    .headerMain {
+      /* display: block; */
+      justify-content: space-between;
+    }
+    .ulNav{
+      flex-direction: column;
+      align-items: flex-end;
     }
   }

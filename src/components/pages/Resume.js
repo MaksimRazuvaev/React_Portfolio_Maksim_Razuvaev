@@ -1,7 +1,8 @@
 /* jshint esversion: 6 */
 import React from 'react';
-import { resumeArray, resumeLink } from '../../utils/project.const.data.js';
+import { resumeArray } from '../../utils/project.const.data.js';
 import "./resume.css";
+import resume from "../../assets/resume.pdf";
 
 
 function Resume () {
@@ -10,7 +11,7 @@ function Resume () {
     <div className="resumeWrapper">
         <div className='wraperHeader'>
             <h1>Resume</h1>
-            <a href={resumeLink} target="_blank" rel="noopener noreferrer">Download my resume</a>
+            <a href={resume} download="Maksim_Razuvaev_Resume.pdf" target="_blank" rel="noopener noreferrer">Download my resume</a>
         </div>
         {
             resumeArray.map(project => {

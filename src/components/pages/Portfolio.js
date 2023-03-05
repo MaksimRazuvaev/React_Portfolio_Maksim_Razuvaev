@@ -9,7 +9,7 @@ import githubimage from "../../../src/assets/images/GitHub.png";
 function Portfolio () {
 
   return (
-    <div>
+    <div className='portfolioWraper'>
         <h1>Portfolio</h1>
         <div className="project-wrapper">
         {
