@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/React_Portfolio_Maksim_Razuvaev/static/css/main.d5d5601b.css",
-    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.8ae0d88f.js",
+    "main.css": "/React_Portfolio_Maksim_Razuvaev/static/css/main.9b6858b1.css",
+    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.ce2271b6.js",
+    "static/media/resume.pdf": "/React_Portfolio_Maksim_Razuvaev/static/media/resume.7fda43e7532990915c5f.pdf",
     "static/media/NoSQLAPI.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/NoSQLAPI.2a41f3f6b1c9ca8f15f7.PNG",
     "static/media/funnymoovie.png": "/React_Portfolio_Maksim_Razuvaev/static/media/funnymoovie.9b70c11fc429ff6b7787.png",
     "static/media/PWATextEdditor.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/PWATextEdditor.64cbf59068f25b39923b.PNG",
@@ -10,11 +11,11 @@
     "static/media/weatheForecast.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/weatheForecast.b1523b27fc4f0f659ece.PNG",
     "static/media/LinkedIn.svg": "/React_Portfolio_Maksim_Razuvaev/static/media/LinkedIn.115d3af0320cfa2e8e34ba26d011a603.svg",
     "index.html": "/React_Portfolio_Maksim_Razuvaev/index.html",
-    "main.d5d5601b.css.map": "/React_Portfolio_Maksim_Razuvaev/static/css/main.d5d5601b.css.map",
-    "main.8ae0d88f.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.8ae0d88f.js.map"
+    "main.9b6858b1.css.map": "/React_Portfolio_Maksim_Razuvaev/static/css/main.9b6858b1.css.map",
+    "main.ce2271b6.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.ce2271b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5d5601b.css",
-    "static/js/main.8ae0d88f.js"
+    "static/css/main.9b6858b1.css",
+    "static/js/main.ce2271b6.js"
   ]
 }
