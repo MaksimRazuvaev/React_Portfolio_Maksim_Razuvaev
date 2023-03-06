@@ -17,9 +17,12 @@ function Portfolio () {
                 return(
                 <div className="projectCard">
                     <h3 className="title">{project.title}</h3>
-                    <a href={project.appLink}><img src={project.image} alt="My Website" width="100%"/></a>
-                    <a href={project.gitHubLink} className="title">
-                        <img title="github" alt="github" src={githubimage} target="_blank" rel="noopener noreferrer" width="32px"></img></a>
+                    <a href={project.appLink} target="_blank" rel="noreferrer">
+                        <img src={project.image} alt="My Website" width="100%"/>
+                    </a>
+                    <a href={project.gitHubLink} className="title" target="_blank" rel="noopener noreferrer" >
+                        <img title="github" alt="github" src={githubimage} width="32px"></img>
+                    </a>
                     <div className="title">{project.description}</div>
                     <ul className="title">Technologies:
                         {
