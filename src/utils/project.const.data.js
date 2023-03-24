@@ -1,13 +1,21 @@
 /* jshint esversion: 6 */
 import goalkeeper from "../../src/assets/images/Goalkeepers.PNG";
 import funnymoovie from "../../src/assets/images/funnymoovie.png";
-import noSQLAPI from "../../src/assets/images/NoSQLAPI.PNG";
+import QuizMaker from "../../src/assets/images/QuizMaker.PNG";
 import pwatxted from "../../src/assets/images/PWATextEdditor.PNG";
 import ecomorm from "../../src/assets/images/EcommerceBackendORM.PNG";
 import weatherForecast from "../../src/assets/images/weatheForecast.PNG";
 
 
 export const projectArray = [
+    { 
+        title: 'QuizMaker',
+        description: "A QuizMaker is a coding project aimed at creating a user-friendly quiz generator that allows users to create and customize quizzes for a variety of purposes. The program is designed to be intuitive and easy to use, featuring a clean and simple interface that enables users to quickly create quizzes with different question types.",
+        tech: ["MERN (MongoDB, Express.js, React.js, and Node.js)", "GraphQL", "@apollo/server", "JavaScript", "Tailwind"],
+        appLink: "https://quizmaker-app.herokuapp.com/",
+        gitHubLink: "https://github.com/TheBluWiz/quizmaker",
+        image: QuizMaker,
+    },
     { 
         title: 'Goalie',
         description: "Application to share and view goals with piers using chart.js to be able to vizualize the data. Live deployed on Heroku!",
@@ -23,14 +31,6 @@ export const projectArray = [
         appLink: "https://maksimrazuvaev.github.io/funny_movie_gif/",
         gitHubLink: "https://github.com/MaksimRazuvaev/funny_movie_gif",
         image: funnymoovie,
-    },
-    { 
-        title: 'NoSQL Social Network API Back-end App',
-        description: "A social media plathform using an API for my social network that uses a NoSQL database so, my website can handle large amounts of unstructured dat",
-        tech: ["Express", "MongoDB", "Mongoose ODM", "JavaScript date library", "Insomnia"],
-        appLink: "https://github.com/MaksimRazuvaev/NoSQL_Social_Network_API",
-        gitHubLink: "https://github.com/MaksimRazuvaev/NoSQL_Social_Network_API",
-        image: noSQLAPI,
     },
     { 
         title: 'PWA Text Edditor',
