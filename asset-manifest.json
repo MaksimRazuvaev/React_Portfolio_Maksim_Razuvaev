@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React_Portfolio_Maksim_Razuvaev/static/css/main.9b6858b1.css",
-    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.70ccd887.js",
-    "static/media/resume.pdf": "/React_Portfolio_Maksim_Razuvaev/static/media/resume.2b1c5451fdc72d3515cc.pdf",
+    "main.js": "/React_Portfolio_Maksim_Razuvaev/static/js/main.85b0bcc8.js",
     "static/media/QuizMaker.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/QuizMaker.6666bd7d71bc6e6944e4.PNG",
     "static/media/funnymoovie.png": "/React_Portfolio_Maksim_Razuvaev/static/media/funnymoovie.9b70c11fc429ff6b7787.png",
+    "static/media/resume.pdf": "/React_Portfolio_Maksim_Razuvaev/static/media/resume.15747d6ddde2eb174210.pdf",
     "static/media/PWATextEdditor.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/PWATextEdditor.64cbf59068f25b39923b.PNG",
     "static/media/EcommerceBackendORM.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/EcommerceBackendORM.8a91bd7266bd380ab2a7.PNG",
     "static/media/Goalkeepers.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/Goalkeepers.3fd939a99c96cf5d14ec.PNG",
     "static/media/weatheForecast.PNG": "/React_Portfolio_Maksim_Razuvaev/static/media/weatheForecast.b1523b27fc4f0f659ece.PNG",
-    "static/media/LinkedIn.svg": "/React_Portfolio_Maksim_Razuvaev/static/media/LinkedIn.115d3af0320cfa2e8e34ba26d011a603.svg",
+    "static/media/LinkedIn.svg": "/React_Portfolio_Maksim_Razuvaev/static/media/LinkedIn.076a19d4c1103b16b75aca5fa02386f1.svg",
     "index.html": "/React_Portfolio_Maksim_Razuvaev/index.html",
     "main.9b6858b1.css.map": "/React_Portfolio_Maksim_Razuvaev/static/css/main.9b6858b1.css.map",
-    "main.70ccd887.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.70ccd887.js.map"
+    "main.85b0bcc8.js.map": "/React_Portfolio_Maksim_Razuvaev/static/js/main.85b0bcc8.js.map"
   },
   "entrypoints": [
     "static/css/main.9b6858b1.css",
-    "static/js/main.70ccd887.js"
+    "static/js/main.85b0bcc8.js"
   ]
 }
